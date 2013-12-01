@@ -21,6 +21,14 @@
 		3E3DB253184B4C4200229ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3DB234184B4C4200229ABE /* Foundation.framework */; };
 		3E3DB25B184B4C4200229ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E3DB259184B4C4200229ABE /* InfoPlist.strings */; };
 		3E3DB25E184B4C4200229ABE /* LocationApp_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DB25D184B4C4200229ABE /* LocationApp_2Tests.m */; };
+		3E3DB26F184B4FB600229ABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DB26D184B4FB600229ABE /* ViewController.m */; };
+		3E3DB270184B4FB600229ABE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3DB26E184B4FB600229ABE /* ViewController.xib */; };
+		3E40D0EF184B68A600DB1E7A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0EE184B68A600DB1E7A /* CoreLocation.framework */; };
+		3E40D0F1184B745500DB1E7A /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0F0184B745500DB1E7A /* Firebase.framework */; };
+		3E40D0F3184B74A300DB1E7A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0F2184B74A300DB1E7A /* CFNetwork.framework */; };
+		3E40D0F5184B74B000DB1E7A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0F4184B74B000DB1E7A /* libicucore.dylib */; };
+		3E40D0F7184B74BF00DB1E7A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0F6184B74BF00DB1E7A /* Security.framework */; };
+		3E40D0F9184B74E300DB1E7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40D0F8184B74E300DB1E7A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		3E3DB25A184B4C4200229ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E3DB25C184B4C4200229ABE /* LocationApp_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationApp_2Tests.h; sourceTree = "<group>"; };
 		3E3DB25D184B4C4200229ABE /* LocationApp_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationApp_2Tests.m; sourceTree = "<group>"; };
+		3E3DB26C184B4FB600229ABE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E3DB26D184B4FB600229ABE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E3DB26E184B4FB600229ABE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3E40D0EE184B68A600DB1E7A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3E40D0F0184B745500DB1E7A /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		3E40D0F2184B74A300DB1E7A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3E40D0F4184B74B000DB1E7A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3E40D0F6184B74BF00DB1E7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3E40D0F8184B74E300DB1E7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E40D0F9184B74E300DB1E7A /* SystemConfiguration.framework in Frameworks */,
+				3E40D0F7184B74BF00DB1E7A /* Security.framework in Frameworks */,
+				3E40D0F5184B74B000DB1E7A /* libicucore.dylib in Frameworks */,
+				3E40D0F3184B74A300DB1E7A /* CFNetwork.framework in Frameworks */,
+				3E40D0EF184B68A600DB1E7A /* CoreLocation.framework in Frameworks */,
 				3E3DB233184B4C4200229ABE /* UIKit.framework in Frameworks */,
 				3E3DB235184B4C4200229ABE /* Foundation.framework in Frameworks */,
 				3E3DB237184B4C4200229ABE /* CoreGraphics.framework in Frameworks */,
+				3E40D0F1184B745500DB1E7A /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +105,11 @@
 		3E3DB226184B4C4200229ABE = {
 			isa = PBXGroup;
 			children = (
+				3E40D0F8184B74E300DB1E7A /* SystemConfiguration.framework */,
+				3E40D0F6184B74BF00DB1E7A /* Security.framework */,
+				3E40D0F4184B74B000DB1E7A /* libicucore.dylib */,
+				3E40D0F2184B74A300DB1E7A /* CFNetwork.framework */,
+				3E40D0EE184B68A600DB1E7A /* CoreLocation.framework */,
 				3E3DB238184B4C4200229ABE /* LocationApp_2 */,
 				3E3DB256184B4C4200229ABE /* LocationApp_2Tests */,
 				3E3DB231184B4C4200229ABE /* Frameworks */,
@@ -101,6 +129,7 @@
 		3E3DB231184B4C4200229ABE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E40D0F0184B745500DB1E7A /* Firebase.framework */,
 				3E3DB232184B4C4200229ABE /* UIKit.framework */,
 				3E3DB234184B4C4200229ABE /* Foundation.framework */,
 				3E3DB236184B4C4200229ABE /* CoreGraphics.framework */,
@@ -115,6 +144,9 @@
 				3E3DB241184B4C4200229ABE /* UMSAppDelegate.h */,
 				3E3DB242184B4C4200229ABE /* UMSAppDelegate.m */,
 				3E3DB239184B4C4200229ABE /* Supporting Files */,
+				3E3DB26C184B4FB600229ABE /* ViewController.h */,
+				3E3DB26D184B4FB600229ABE /* ViewController.m */,
+				3E3DB26E184B4FB600229ABE /* ViewController.xib */,
 			);
 			path = LocationApp_2;
 			sourceTree = "<group>";
@@ -228,6 +260,7 @@
 				3E3DB245184B4C4200229ABE /* Default.png in Resources */,
 				3E3DB247184B4C4200229ABE /* Default@2x.png in Resources */,
 				3E3DB249184B4C4200229ABE /* Default-568h@2x.png in Resources */,
+				3E3DB270184B4FB600229ABE /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +297,7 @@
 			files = (
 				3E3DB23F184B4C4200229ABE /* main.m in Sources */,
 				3E3DB243184B4C4200229ABE /* UMSAppDelegate.m in Sources */,
+				3E3DB26F184B4FB600229ABE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,9 +400,14 @@
 		3E3DB262184B4C4200229ABE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationApp_2/LocationApp_2-Prefix.pch";
 				INFOPLIST_FILE = "LocationApp_2/LocationApp_2-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,9 +416,14 @@
 		3E3DB263184B4C4200229ABE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationApp_2/LocationApp_2-Prefix.pch";
 				INFOPLIST_FILE = "LocationApp_2/LocationApp_2-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +482,7 @@
 				3E3DB263184B4C4200229ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3DB264184B4C4200229ABE /* Build configuration list for PBXNativeTarget "LocationApp_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +491,7 @@
 				3E3DB266184B4C4200229ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
